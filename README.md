@@ -11,7 +11,7 @@
 
 ## Introduction
 
-build a simple laravel development environment with docker-compose. Compatible with Windows(WSL2), macOS(M1) and Linux.
+build A simple laravel development environment with docker-compose. Compatible with Windows(WSL2), macOS(M1) and Linux.
 
 ## Usage
 
