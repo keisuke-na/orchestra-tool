@@ -7,8 +7,11 @@
     <title>ユーザー登録</title>
 </head>
 <body>
-    <form action="" method="post">
+    
+    <form action="{{ url('/register') }}" method="post">
+        @CSRF
         <input type="text" name="name">
+        <input type="text" name="email">
         <input type="password" name="password">
         <input type="text" name="instrument">
         <input type="submit" value="登録する">
